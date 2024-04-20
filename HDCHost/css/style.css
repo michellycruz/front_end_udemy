@@ -199,6 +199,11 @@ ion-icon{
     background-color: #f45c57;
 }
 
+.plan > ul > .plan-btn-recommended:hover{
+    transition: .5s;
+    background-color: #ab413d;
+}
+
 .busca {
     width: 100%;
     display: flex;
