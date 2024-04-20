@@ -67,6 +67,7 @@
     justify-content: center;
     background-size: cover;
     gap: 15px;
+    text-align: center;
 }
 
 .tituloPrincipal{
@@ -78,18 +79,118 @@
 }
 
 .container2{
+    padding: 30px;
     height: 450px;
     display: flex;
-    flex-direction: row;
-    padding: 30px;
-    align-items: center;
+    flex-direction: row; 
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .servicos{
     text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .servicos > h3 {
     padding: 20px;
+}
+
+ion-icon{
+    font-size: 60px;
+}
+
+section > p {
+    padding: 10px;
+    max-width: 300px;
+}
+
+.plano{
+    flex: 1 1 auto;
+    max-width: 275px;
+    margin: 0 20px;
+}
+
+.planos{
+    width: 100%;
+    text-align: center;
+}
+
+.planos > h3{
+    padding-top: 30px;
+    color: gray;
+}
+
+.section-planos{
+    display: flex;
+    width: 100%;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.price-recommended{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #F45C57;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+
+.price {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2cc76a;
+    color: #fff;
+    text-align: center;
+    line-height: 120px;
+    font-size: 18px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -50px;
+}
+.plano > ul > .liItem{
+    background-color: #E8E9EA;
+}
+
+.section-planos > .plano > ul > li{
+    list-style-type: none;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
+.plan-name{
+    background-color: #202B34;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* MEDIA QUERIES */
+
+
+@media (max-width: 500px) {
+    .container2{
+        flex-wrap: wrap;
+        padding-top: 100px;
+    }
 }
