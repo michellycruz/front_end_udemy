@@ -332,15 +332,38 @@ ion-icon{
 /* MEDIA QUERIES */
 
 
-@media (max-width: 500px) {
+@media (max-width: 532px) {
+    .tituloPrincipal{
+        font-size: 36px;
+    }
+
+    .tituloSecundario{
+        font-size: 20px;
+    }
+
+    .pricing-container{
+        margin-top: 40px;
+    }
+
+
     .container2{
         flex-wrap: wrap;
         padding-top: 100px;
     }
+
+    .contact-container > form > input, .contact-container > form > textarea {
+        width: 200px;
+    }
+
+   .busca > .form-busca > input {
+    font-size: 18px;
+   }
+
 }
 
-@media (max-width: 389px) {
+@media (max-width: 426px) {
     .botoes{
         display: none;
     }
 }
+
