@@ -224,13 +224,21 @@ ion-icon{
 .busca > h5 {
     font-size: 20px;
     margin: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #ffffffc0;
 }
 
-.busca > input {
+.form-busca{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.busca > form > input {
     min-width: 250px;
-    width: 50%;
+    width: 60%;
     height: 50px;
     border-radius: 5px;
     border: none;
@@ -239,7 +247,7 @@ ion-icon{
 }
 
 .btn-busca {
-    margin: 50px;
+    margin: 25px;
     background-color: #2CC76A;
     border: none;
     width: 200px;
