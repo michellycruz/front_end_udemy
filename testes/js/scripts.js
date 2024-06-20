@@ -64,3 +64,11 @@ const bulldog = Object.create(cachorro)
 bulldog.raca = "Bulldog"
 
 console.log(bulldog)
+
+
+// 1 - strict
+
+
+"use strict";
+
+opa = "teste"
